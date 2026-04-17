@@ -1,5 +1,6 @@
 
 import './App.css'
+import DaisyNav from './components/DaisyNav'
 
 function App() {
   
@@ -7,10 +8,9 @@ function App() {
   return (
     <>
       
-      <h1 className='text-7xl text-amber-500'>Vite + React</h1>
-
-     
-      
+      <header>
+        <DaisyNav></DaisyNav>
+      </header>
      
     </>
   )
